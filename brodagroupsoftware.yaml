@@ -1,0 +1,33 @@
+# ---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: party-domain
+  description: partyDomain
+spec:
+  owner: "user:eric.broda"
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: account-domain
+  description: accountDomain
+spec:
+  owner: "user:eric.broda"
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: product-domain
+  description: productDomain
+spec:
+  owner: "user:eric.broda"
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: transaction-domain
+  description: transactionDomain
+spec:
+  owner: "user:eric.broda"
+---
